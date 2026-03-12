@@ -7,9 +7,9 @@ A full-stack, production-ready **Human Resource Management System** built with *
 ## 🚀 Live Demo
 | Layer    | URL |
 |----------|-----|
-| Frontend | https://hrms-portal-blue.vercel.app |
-| Backend  | https://hrms-portal-6oro.onrender.com |
-| API Docs | https://hrms-portal-6oro.onrender.com/docs |
+| Frontend | https://hr-management-system-mocha.vercel.app/dashboard |
+| Backend  | https://hr-management-system-kcfq.onrender.com/ |
+| API Docs | https://hr-management-system-kcfq.onrender.com/docs |
 
 ---
 
