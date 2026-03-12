@@ -5,9 +5,19 @@ services:
     rootDir: backend
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+
     envVars:
       - key: DATABASE_URL
-        sync: false       
+        fromDatabase:
+          name: hrms-db
+          property: connectionString
+
       - key: PYTHON_VERSION
         value: 3.11.0
+
     healthCheckPath: /api/dashboard/stats
+
+databases:
+  - name: hrms-db
+    databaseName: hrms
+    user: hrms
