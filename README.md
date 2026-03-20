@@ -1,4 +1,4 @@
-# HRMS – Human Resource Management System
+# HRMS – Human Resource Management System 
 
 A full-stack, production-ready **Human Resource Management System** built with **React + TypeScript** (frontend) and **FastAPI + Python** (backend), featuring a professional UI, real-time stats dashboard, employee management, and attendance tracking.
 
